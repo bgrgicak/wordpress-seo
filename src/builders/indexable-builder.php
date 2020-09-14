@@ -143,7 +143,7 @@ class Indexable_Builder {
 	 *
 	 * @required
 	 */
-	public function set_indexable_helper( Indexable_helper $indexable_helper ) {
+	public function set_indexable_helper( Indexable_Helper $indexable_helper ) {
 		$this->indexable_helper = $indexable_helper;
 	}
 
